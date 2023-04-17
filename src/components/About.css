@@ -1,0 +1,86 @@
+#about {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#about img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.education-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.education-container h3 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  
+}
+
+.skills-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-container h3 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-basis: calc(33.33% - 20px);
+}
+
+
+.skill-name {
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+.experience-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.experience-container h3 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,105 @@
+
+  .projects-container {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  .projects-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+  }
+  
+  .project-card {
+    margin: 20px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  .language-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #555555;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .dot-java {
+    background-color: #F8981D;
+  }
+  
+  .dot-python {
+    background-color: #8FFF9E;
+  }
+  
+  .dot-cpp {
+    background-color: #F34B7D;
+  }
+  
+  .language-dot p {
+    margin: 0;
+  }
+  
+  .project-card {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .project-card .card-title {
+    margin-top: 1rem;
+  }
+  
+  .project-card .card-text {
+    margin-top: 0.5rem;
+  }
+  
+  .project-card .btn {
+    margin-top: 1rem;
+  }
+  
+  .btn-github {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #6f42c1;
+    color: white;
+    border: 2px solid #6f42c1;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-github:hover {
+    background-color: white;
+    color: purple;
+    text-decoration: none;
+  }
+  
+  .card-body a {
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  
+  .card-body a.btn-github {
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
