@@ -1,5 +1,5 @@
 import React from 'react';
-import myPhoto from 'C:/Users/jaggan/jjweb/src/assets/images/git.jpg';
+import myPhoto from 'src/assets/images/git.jpg';
 import './Projects.css';
 
 const Projects = () => {
