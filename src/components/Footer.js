@@ -8,13 +8,13 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="container">
         <div className="social-media-icons mb-3">
-          <a href="https://github.com/jaj180010" className="mx-2 text-dark" target="_blank">
+          <a href="https://github.com/jaj180010" className="mx-2 text-dark" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <a href="https://www.linkedin.com/in/jaggan-jestine" className="mx-2 text-dark" target="_blank">
+          <a href="https://www.linkedin.com/in/jaggan-jestine" className="mx-2 text-dark" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
-          <a href="https://twitter.com/jagganj" className="mx-2 text-dark" target="_blank">
+          <a href="https://twitter.com/jagganj" className="mx-2 text-dark" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
         </div>
