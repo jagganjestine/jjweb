@@ -9,7 +9,6 @@ const Home = () => {
       <h2 className="hero-subtitle">Your one-stop solution for web development</h2>
       <Link to="/projects" className="cta-button">
         View My Projects
-      </a>
     </div>
   );
 };
