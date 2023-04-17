@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-container">
       <h1 className="hero-title">Welcome to My Website</h1>
       <h2 className="hero-subtitle">Your one-stop solution for web development</h2>
-      <a href="/projects" className="cta-button">
+      <a href="https://jagganjestine.com/projects" className="cta-button">
         View My Projects
       </a>
     </div>
