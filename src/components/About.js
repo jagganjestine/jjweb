@@ -1,5 +1,5 @@
 import React from 'react';
-import myPhoto from 'C:/Users/jaggan/jjweb/src/assets/images/my-photo.jpg';
+import myPhoto from 'src/assets/images/my-photo.jpg';
 import './About.css';
 
 const About = () => {
