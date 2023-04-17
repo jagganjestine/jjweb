@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     color: #ffffff;
   }
