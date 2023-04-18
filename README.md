@@ -1,3 +1,17 @@
+#Message from Dev
+
+This is a personal portfolio website built using React, a popular front-end JavaScript library. It features several pages including a home page, an about page, a projects page, and a contact page.
+
+The home page provides an introduction to the website and features links to my social media profiles. The about page provides a brief biography, education, skills, and work experience. The projects page showcases several projects I have worked on, including a description, the programming languages used, and a link to the project's Github repository. Finally, the contact page features a simple form for users to contact me directly.
+
+The website was built using several third-party libraries, including React Router for routing, EmailJS for sending email, and Font Awesome for displaying icons. The website also utilizes CSS animations and transitions to make it more visually appealing.
+
+The development environment for this project includes Node.js, which is used to manage dependencies and run build scripts. The project is set up with Webpack as a module bundler and Babel as a transpiler to enable the use of modern JavaScript features. The website is deployed using Netlify, a cloud hosting platform.
+
+Overall, this project showcases my technical skills and provides a glimpse into my work as a software developer.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
