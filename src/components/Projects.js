@@ -25,7 +25,15 @@ const Projects = () => {
     <a href="https://github.com/jagganjestine/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
   </div>
 </div>
-
+<div className="project-card">
+        <img src={myPhoto} alt="Git" className="card-img-top" />
+          <div className="card-body">
+            <h5 className="card-title">Stock Predictor</h5>
+            <p className="card-text">A machine learning project that predicts stock market trends using historical data and sentiment analysis.</p>
+            <div className="language-dot"><span className="dot dot-python"></span><p>Python</p></div>
+            <a href="https://github.com/jagganjestine/stock-predictor" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </div>
         <div className="project-card">
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body text-center">
@@ -35,15 +43,7 @@ const Projects = () => {
             <a href="https://github.com/jagganjestine/text-editor" className="btn btn-github" target="_blank" rel="noreferrer"> View on GitHub</a>
           </div>
         </div>
-        <div className="project-card">
-        <img src={myPhoto} alt="Git" className="card-img-top" />
-          <div className="card-body">
-            <h5 className="card-title">Stock Predictor</h5>
-            <p className="card-text">A machine learning project that predicts stock market trends using historical data and sentiment analysis.</p>
-            <div className="language-dot"><span className="dot dot-python"></span><p>Python</p></div>
-            <a href="https://github.com/jagganjestine/stock-predictor" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
-          </div>
-        </div>
+        
         <div className="project-card">
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body">
