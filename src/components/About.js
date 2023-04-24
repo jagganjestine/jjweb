@@ -53,7 +53,7 @@ const About = () => {
       <div className="experience-container">
         <h3>Experience</h3>
         <ul>
-          <li>Test Engineer, Blue Cross Blue Shield, 2023-Present</li>
+          <li>Test Engineer Intern, Blue Cross Blue Shield, June 2023-August 2023</li>
         </ul>
       </div>
     </section>
