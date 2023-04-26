@@ -8,15 +8,6 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="projects-container">
         <div className="project-card">
-          <img src={myPhoto} alt="Git" className="card-img-top" />
-          <div className="card-body">
-            <h5 className="card-title">Git Command Project</h5>
-            <p className="card-text">This is a test to check my git commands!</p>
-            <div className="language-dot"><span className="dot"></span><p>C</p></div>
-            <a href="https://github.com/jaj180010/cslinux" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
-          </div>
-        </div>
-        <div className="project-card">
   <img src={myPhoto} alt="Git" className="card-img-top" />
   <div className="card-body">
     <h5 className="card-title">Calendar</h5>
