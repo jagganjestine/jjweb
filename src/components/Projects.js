@@ -25,6 +25,15 @@ const Projects = () => {
             <a href="https://github.com/dhruvbpatel/aim-s23-quant" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
         </div>
+<div className="project-card">
+        <img src={myPhoto} alt="Git" className="card-img-top" />
+          <div className="card-body card-padding">
+            <h5 className="card-title">SQL Database</h5>
+            <p className="card-text">A SQL database populated on a MySQL server for query testing purposes, with data generated from Python scripting.</p>
+            <div className="language-dot"><span className="dot dot-sql"></span><p>SQL</p></div>
+            <a href="https://github.com/jaj180010/shoetopia" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </div>
         <div className="project-card">
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body text-center">
@@ -43,16 +52,6 @@ const Projects = () => {
             <a href="https://github.com/jagganjestine/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
            </div>
         </div>  
-        <div className="project-card">
-        <img src={myPhoto} alt="Git" className="card-img-top" />
-          <div className="card-body card-padding">
-            <h5 className="card-title">SQL Database</h5>
-            <p className="card-text">A SQL database populated on a MySQL server for query testing purposes, with data generated from Python scripting.</p>
-            <div className="language-dot"><span className="dot dot-sql"></span><p>SQL</p></div>
-            <a href="https://github.com/jagganjestine/travel-planner" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
-          </div>
-        </div>
-  
         <div className="project-card">
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body card-padding">
