@@ -20,7 +20,7 @@ const Projects = () => {
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body card-padding">
             <h5 className="card-title">Stock Portfolio Optimization</h5>
-            <p className="card-text">A machine learning project that predicts stock market trends using historical data and sentiment analysis.</p>
+            <p className="card-text">A machine learning project optimizing portfolios by predicting stock trends using historical data and sentiment analysis.</p>
             <div className="language-dot"><span className="dot dot-python"></span><p>Python</p></div>
             <a href="https://github.com/dhruvbpatel/aim-s23-quant" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
