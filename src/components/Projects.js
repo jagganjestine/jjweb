@@ -7,7 +7,16 @@ const Projects = () => {
     <section id="projects" className="container my-5">
       <h2>Projects</h2>
       <div className="projects-container">
-        <div className="project-card">
+    <div className="project-card">
+  <img src={myPhoto} alt="Git" className="card-img-top" />
+  <div className="card-body">
+    <h5 className="card-title">React Website</h5>
+    <p className="card-text">A personal website that showcases my experience, projects, and contact information. </p>
+    <div className="language-dot"><span className="dot dot-js"></span><p>JavaScript</p></div>
+    <a href="https://github.com/jagganjestine/jjweb" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+  </div>
+</div>    
+    <div className="project-card">
   <img src={myPhoto} alt="Git" className="card-img-top" />
   <div className="card-body">
     <h5 className="card-title">Calendar</h5>
