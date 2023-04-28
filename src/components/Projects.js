@@ -38,7 +38,7 @@ const Projects = () => {
         <img src={myPhoto} alt="Git" className="card-img-top" />
            <div className="card-body card-padding">
            <h5 className="card-title">Calendar</h5>
-            <p className="card-text">A simple calendar that helps users manage their schedules and events.</p>
+            <p className="card-text">A simple console-based calendar application that helps users manage their schedules and events.</p>
             <div className="language-dot"><span className="dot dot-java"></span><p>Java</p></div>
             <a href="https://github.com/jagganjestine/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
            </div>
