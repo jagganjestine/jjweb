@@ -11,25 +11,16 @@ const Projects = () => {
   <img src={myPhoto} alt="Git" className="card-img-top" />
   <div className="card-body">
     <h5 className="card-title">React Website</h5>
-    <p className="card-text">A personal website that showcases my experience, projects, and contact information. </p>
+    <p className="card-text">A personal website showcasing my experience, projects, and contact information. </p>
     <div className="language-dot"><span className="dot dot-js"></span><p>JavaScript</p></div>
-    <a href="https://github.com/jagganjestine/jjweb" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+    <a href="https://github.com/jaj180010/jjweb" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
   </div>
 </div>    
-    <div className="project-card">
-  <img src={myPhoto} alt="Git" className="card-img-top" />
-  <div className="card-body">
-    <h5 className="card-title">Calendar</h5>
-    <p className="card-text">A simple calendar that helps users manage their schedules and events.</p>
-    <div className="language-dot"><span className="dot dot-java"></span><p>Java</p></div>
-    <a href="https://github.com/jagganjestine/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
-  </div>
-</div>
 <div className="project-card">
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body">
-            <h5 className="card-title">Stock Predictor</h5>
-            <p className="card-text">A machine learning project that predicts stock market trends using historical data and sentiment analysis.</p>
+            <h5 className="card-title">Stock Portfolio Optimization</h5>
+            <p className="card-text">A machine learning project that predicts stock market trends using historical data and sentiment analysis to optimize your porfolio.</p>
             <div className="language-dot"><span className="dot dot-python"></span><p>Python</p></div>
             <a href="https://github.com/dhruvbpatel/aim-s23-quant" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
@@ -53,6 +44,15 @@ const Projects = () => {
             <a href="https://github.com/jagganjestine/travel-planner" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
         </div>
+    <div className="project-card">
+  <img src={myPhoto} alt="Git" className="card-img-top" />
+  <div className="card-body">
+    <h5 className="card-title">Calendar</h5>
+    <p className="card-text">A simple calendar that helps users manage their schedules and events.</p>
+    <div className="language-dot"><span className="dot dot-java"></span><p>Java</p></div>
+    <a href="https://github.com/jagganjestine/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+  </div>
+</div>
         <div className="project-card">
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body">
