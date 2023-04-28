@@ -101,7 +101,6 @@
     border-radius: 5px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
-    margin-top: auto; /* This will push the button to the bottom */
   }
   
   .btn-github:hover {
