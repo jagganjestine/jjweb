@@ -40,6 +40,10 @@
     margin-right: 5px;
   }
 
+  .dot-js {
+    background-color: #F7DF1E;
+  }
+
   .dot-java {
     background-color: #F8981D;
   }
