@@ -47,7 +47,7 @@ const Projects = () => {
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body card-padding">
             <h5 className="card-title">SQL Database</h5>
-            <p className="card-text">A SQL database populated on a MySQL server for query testing purposes, with data generated through a Python scripting process.</p>
+            <p className="card-text">A SQL database populated on a MySQL server for query testing purposes, with data generated from Python scripting.</p>
             <div className="language-dot"><span className="dot dot-sql"></span><p>SQL</p></div>
             <a href="https://github.com/jagganjestine/travel-planner" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
