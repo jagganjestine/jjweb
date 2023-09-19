@@ -1,5 +1,5 @@
 import React from 'react';
-import myPhoto from 'C:/Users/jaggan/jjweb/src/assets/images/my-photo.jpg';
+import myPhoto from '../assets/images/my-photo.jpg';
 import './About.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
