@@ -1,8 +1,9 @@
 import React from 'react';
-import myPhoto from '../assets/images/my-photo.jpg';
+import myPhoto from 'C:/Users/jaggan/jjweb/src/assets/images/my-photo.jpg';
 import './About.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+
 
 const About = () => {
   return (
@@ -20,38 +21,16 @@ const About = () => {
           <li>Bachelor's Degree in Computer Science, The University of Texas at Dallas, 2019-2023</li>
         </ul>
       </div>
-      <div className="skills-container">
-        <h3>Skills</h3>
-        <div className="skill-list">
-          <div className="skill-item">
-            <span className="skill-name">HTML5</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">CSS3</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">JavaScript</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">React</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">Node.js</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">Python</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">Java</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">MySQL</span>
-          </div>
-          <div className="skill-item">
-            <span className="skill-name">C/C++/C#</span>
-          </div>
-        </div>
-      </div>
+      <section className="skills-section">
+        <div className="skill-bubble">HTML</div>
+        <div className="skill-bubble">CSS</div>
+        <div className="skill-bubble">JavaScript</div>
+        <div className="skill-bubble">React</div>
+        <div className="skill-bubble">Java</div>
+        <div className="skill-bubble">SQL</div>
+        <div className="skill-bubble">React</div>
+        <div className="skill-bubble">C/C++/C#</div>
+      </section>
       <div className="experience-container">
         <h3>Experience</h3>
         <VerticalTimeline>
