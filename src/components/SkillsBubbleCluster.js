@@ -29,7 +29,7 @@ const SkillsBubbleCluster = ({ data }) => {
       .join("g")
       .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`);
 
-    const circles = leaf.append("circle")
+    leaf.append("circle")
       .attr("r", d => d.r)
       .attr("fill-opacity", 0.7)
       .attr("fill", "url(#grad)")
