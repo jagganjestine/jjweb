@@ -7,8 +7,6 @@ const SkillsBubbleCluster = ({ data }) => {
 
   useEffect(() => {
     const svg = d3.select(svgRef.current)
-      .attr("width", window.innerWidth)
-      .attr("height", window.innerHeight)
       .attr("style", "font: 10px sans-serif");
 
     const width = 800;
