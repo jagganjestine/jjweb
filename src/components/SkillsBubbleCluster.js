@@ -10,8 +10,8 @@ const SkillsBubbleCluster = ({ data }) => {
     let height = 800;
 
     if (window.innerWidth < 600) {
-        width = 1000;
-        height = 1000;
+        width = 2000;
+        height = 2000;
     }
 
     const svg = d3.select(svgRef.current)
