@@ -29,45 +29,42 @@ const SkillsBubbleCluster = ({ data }) => {
       .join("g")
         .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`);
 
-        const dynamicFontSize = window.innerWidth < 600 ? '25px' : '25px';
-        const dynamicRadiusFactor = window.innerWidth < 600 ? 1.1 : 1;
+    leaf.append("circle")
+      .attr("r", d => d.r)
+      .attr("fill-opacity", 0.7)
+      .attr("fill", "url(#grad)")
+      .on('mouseover', (event, d) => {
+        d3.select(event.currentTarget)
+          .transition()
+          .duration(300)
+          .attr("r", d.r * 1.1);
+      })
+      .on('mouseout', (event, d) => {
+        d3.select(event.currentTarget)
+          .transition()
+          .duration(300)
+          .attr("r", d.r);
+      });
+
+    leaf.append("text")
+      .attr("fill", "white")
+      .attr("text-anchor", "middle")
+      .attr("dy", "0.3em")
+      .attr("font-size", "25px")
+      .text(d => d.data.name);
+
+      const resize = () => {
+        const width = svg.node().clientWidth;
+        const height = svg.node().clientHeight;
+        svg.attr("width", width).attr("height", height);
+      }
+    
+      window.addEventListener('resize', resize);
       
-        leaf.append("circle")
-          .attr("r", d => d.r * dynamicRadiusFactor)
-          .attr("fill-opacity", 0.7)
-          .attr("fill", "url(#grad)")
-          .on('mouseover', (event, d) => {
-            d3.select(event.currentTarget)
-              .transition()
-              .duration(300)
-              .attr("r", (d.r * dynamicRadiusFactor) * 1.1);
-          })
-          .on('mouseout', (event, d) => {
-            d3.select(event.currentTarget)
-              .transition()
-              .duration(300)
-              .attr("r", d.r * dynamicRadiusFactor);
-          });
-      
-        leaf.append("text")
-          .attr("fill", "white")
-          .attr("text-anchor", "middle")
-          .attr("dy", "0.3em")
-          .attr("font-size", dynamicFontSize)
-          .text(d => d.data.name);
-      
-        const resize = () => {
-          const width = svg.node().clientWidth;
-          const height = svg.node().clientHeight;
-          svg.attr("width", width).attr("height", height);
-        }
-      
-        window.addEventListener('resize', resize);
-        
-        return () => {
-          window.removeEventListener('resize', resize);
-        };
-      }, [data]);
+      return () => {
+        window.removeEventListener('resize', resize);
+      };
+    }, [data]);
 
 
   return (
