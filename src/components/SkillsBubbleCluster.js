@@ -1,25 +1,23 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import * as d3 from 'd3';
 import './SkillsBubbleCluster.css'; 
 
 const SkillsBubbleCluster = ({ data }) => {
   const svgRef = useRef();
-  
-  const [dimensions, setDimensions] = useState({
-    width: window.innerWidth < 600 ? 2000 : 800,
-    height: window.innerWidth < 600 ? 2000 : 800,
-  });
 
   useEffect(() => {
     const svg = d3.select(svgRef.current)
     .attr("width", "75%")
     .attr("height", "75%")
-    .attr("viewBox", `0 0 ${dimensions.width} ${dimensions.height}`)
+    .attr("viewBox", `0 0 800 800`)
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("style", "font: 10px sans-serif");
 
+    const width = 800;
+    const height = 800;
+
     const pack = data => d3.pack()
-      .size([dimensions.width - 2, dimensions.height - 2])
+      .size([width - 2, height - 2])
       .padding(10)
       (d3.hierarchy({ children: data })
         .sum(d => d.value));
@@ -31,46 +29,43 @@ const SkillsBubbleCluster = ({ data }) => {
       .join("g")
         .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`);
 
-        leaf.append("circle")
-        .attr("r", d => d.r)
-        .attr("fill-opacity", 0.7)
-        .attr("fill", "url(#grad)")
-        .on('mouseover', (event, d) => {
-          d3.select(event.currentTarget)
-            .transition()
-            .duration(300)
-            .attr("r", d.r * 1.1);
-        })
-        .on('mouseout', (event, d) => {
-          d3.select(event.currentTarget)
-            .transition()
-            .duration(300)
-            .attr("r", d.r);
-        });
-  
-      leaf.append("text")
-        .attr("fill", "white")
-        .attr("text-anchor", "middle")
-        .attr("dy", "0.3em")
-        .attr("font-size", "25px")
-        .text(d => d.data.name);
-  
-  }, [data, dimensions]);
-
-  useEffect(() => {
-    const resize = () => {
-      setDimensions({
-        width: window.innerWidth < 600 ? 1000 : 800,
-        height: window.innerWidth < 600 ? 1000 : 800,
+    leaf.append("circle")
+      .attr("r", d => d.r)
+      .attr("fill-opacity", 0.7)
+      .attr("fill", "url(#grad)")
+      .on('mouseover', (event, d) => {
+        d3.select(event.currentTarget)
+          .transition()
+          .duration(300)
+          .attr("r", d.r * 1.1);
+      })
+      .on('mouseout', (event, d) => {
+        d3.select(event.currentTarget)
+          .transition()
+          .duration(300)
+          .attr("r", d.r);
       });
-    };
 
-    window.addEventListener('resize', resize);
+    leaf.append("text")
+      .attr("fill", "white")
+      .attr("text-anchor", "middle")
+      .attr("dy", "0.3em")
+      .attr("font-size", "25px")
+      .text(d => d.data.name);
 
-    return () => {
-      window.removeEventListener('resize', resize);
-    };
-  }, []);
+      const resize = () => {
+        const width = svg.node().clientWidth;
+        const height = svg.node().clientHeight;
+        svg.attr("width", width).attr("height", height);
+      }
+    
+      window.addEventListener('resize', resize);
+      
+      return () => {
+        window.removeEventListener('resize', resize);
+      };
+    }, [data]);
+
 
   return (
     <svg ref={svgRef} width="75%" height="75%">
@@ -85,4 +80,3 @@ const SkillsBubbleCluster = ({ data }) => {
 };
 
 export default SkillsBubbleCluster;
-
