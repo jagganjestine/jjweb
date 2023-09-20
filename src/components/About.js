@@ -41,7 +41,7 @@ const About = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)', color: '#fff', borderRadius: '8px', padding: '15px' }}
             contentArrowStyle={{ borderRight: '7px solid #84fab0' }}
-            date="2024 - present"
+            //date="2024 - present"
             iconStyle={{ background: '#607d8b', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             icon={<i className="fa fa-briefcase custom-icon fa-2x" aria-hidden="true"></i>}
           >
@@ -55,7 +55,7 @@ const About = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)', color: '#fff', borderRadius: '8px', padding: '15px' }}
             contentArrowStyle={{ borderRight: '7px solid #84fab0' }}
-            date="2023 - present"
+            //date="2023 - present"
             iconStyle={{ background: '#607d8b', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             icon={<i className="fa fa-briefcase custom-icon fa-2x" aria-hidden="true"></i>}
           >
@@ -69,11 +69,11 @@ const About = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)', color: '#fff', borderRadius: '8px', padding: '15px' }}
             contentArrowStyle={{ borderRight: '7px solid #84fab0' }}
-            date="march 2022 - june 2023"
+            //date="march 2022 - june 2023"
             iconStyle={{ background: '#607d8b', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             icon={<i className="fa fa-briefcase custom-icon fa-2x" aria-hidden="true"></i>}
           >
-            <h3 style={{ fontSize: '1.5em' }} className="vertical-timeline-element-title">Software Engineer</h3>
+            <h3 style={{ fontSize: '1.5em' }} className="vertical-timeline-element-title">SWE Intern</h3>
             <h4 style={{ fontSize: '1.2em' }} className="vertical-timeline-element-subtitle">AI Drone Project</h4>
             <p>
               March 2022 - June 2023
@@ -84,7 +84,7 @@ const About = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)', color: '#fff', borderRadius: '8px', padding: '15px' }}
             contentArrowStyle={{ borderRight: '7px solid #84fab0' }}
-            date="may 2019 - august 2019"
+            //date="may 2019 - august 2019"
             iconStyle={{ background: '#607d8b', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             icon={<i className="fa fa-briefcase custom-icon fa-2x" aria-hidden="true"></i>}
           >
