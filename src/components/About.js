@@ -40,6 +40,7 @@ const About = () => {
           <li>Bachelor's Degree in Computer Science, The University of Texas at Dallas, 2019-2023</li>
         </ul>
       </div>
+      <h2>Skills</h2>
       <section className="skills-section">
         <SkillsBubbleCluster data={skillsData} />
       </section>
