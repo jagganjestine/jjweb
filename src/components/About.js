@@ -11,9 +11,10 @@ const About = () => {
       <h2>About Me</h2>
       <img src={myPhoto} alt="Jaggan Jestine" />
       <p>
-        Hi! My name is Jaggan, and I'm a software developer specializing
-        in building (and occasionally designing) exceptional websites,
-        applications, and everything in between.
+        Hello! My name is Jaggan, and I am a software developer specializing in crafting exceptional digital experiences. My expertise encompasses the design, development,
+        and testing of outstanding websites and applications. Leveraging a detailed understanding of the intricate processes involved in building web solutions 
+        from the ground up, I am committed to bringing unique visions to life through meticulous attention to detail and technical proficiency. Whether it's a website or an application, 
+        I deliver nothing short of excellence, ensuring functionality meets creativity in every project I undertake.
       </p>
       <div className="education-container">
         <h3>Education</h3>
@@ -25,11 +26,13 @@ const About = () => {
         <div className="skill-bubble">HTML</div>
         <div className="skill-bubble">CSS</div>
         <div className="skill-bubble">JavaScript</div>
-        <div className="skill-bubble">React</div>
         <div className="skill-bubble">Java</div>
         <div className="skill-bubble">SQL</div>
-        <div className="skill-bubble">React</div>
         <div className="skill-bubble">C/C++/C#</div>
+        <div className="skill-bubble">React</div>
+        <div className="skill-bubble">Selenium</div>
+        <div className="skill-bubble">CAD</div>
+        
       </section>
       <div className="experience-container">
         <h3>Experience</h3>
