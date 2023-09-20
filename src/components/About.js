@@ -3,7 +3,7 @@ import myPhoto from '../assets/images/my-photo.jpg';
 import './About.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import SkillsBubbleCluster from './SkillsBubbleCluster'; // Import the SkillsBubbleCluster component
+import SkillsBubbleCluster from './SkillsBubbleCluster';
 
 
 const About = () => {
@@ -37,7 +37,9 @@ const About = () => {
       <div className="education-container">
         <h3>Education</h3>
         <ul>
-          <li>Bachelor's Degree in Computer Science with a Minor in Business Administration, The University of Texas at Dallas, 2019-2023</li>
+          <li>Bachelor's Degree in Computer Science with a Minor in Business Administration</li>
+          <li><i>The University of Texas at Dallas</i></li>
+          <li><i>2019-2023</i></li>
         </ul>
       </div>
       <h2>Skills</h2>
