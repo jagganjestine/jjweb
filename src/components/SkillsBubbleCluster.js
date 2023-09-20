@@ -6,15 +6,20 @@ const SkillsBubbleCluster = ({ data }) => {
   const svgRef = useRef();
 
   useEffect(() => {
+    let width = 800;
+    let height = 800;
+
+    if (window.innerWidth < 600) {
+        width = 1000;
+        height = 1000;
+    }
+
     const svg = d3.select(svgRef.current)
     .attr("width", "75%")
     .attr("height", "75%")
-    .attr("viewBox", `0 0 800 800`)
+    .attr("viewBox", `0 0 ${width} ${height}`)
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("style", "font: 10px sans-serif");
-
-    const width = 800;
-    const height = 800;
 
     const pack = data => d3.pack()
       .size([width - 2, height - 2])
@@ -53,19 +58,26 @@ const SkillsBubbleCluster = ({ data }) => {
       .attr("font-size", "25px")
       .text(d => d.data.name);
 
-      const resize = () => {
-        const width = svg.node().clientWidth;
-        const height = svg.node().clientHeight;
-        svg.attr("width", width).attr("height", height);
+    const resize = () => {
+      if (window.innerWidth < 600) {
+          width = 1000;
+          height = 1000;
+      } else {
+          width = 800;
+          height = 800;
       }
-    
-      window.addEventListener('resize', resize);
-      
-      return () => {
-        window.removeEventListener('resize', resize);
-      };
-    }, [data]);
 
+      svg.attr("viewBox", `0 0 ${width} ${height}`)
+         .attr("width", "75%")
+         .attr("height", "75%");
+    };
+    
+    window.addEventListener('resize', resize);
+    
+    return () => {
+      window.removeEventListener('resize', resize);
+    };
+  }, [data]);
 
   return (
     <svg ref={svgRef} width="75%" height="75%">
@@ -80,4 +92,3 @@ const SkillsBubbleCluster = ({ data }) => {
 };
 
 export default SkillsBubbleCluster;
-
