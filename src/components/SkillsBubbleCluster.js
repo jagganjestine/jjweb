@@ -7,8 +7,8 @@ const SkillsBubbleCluster = ({ data }) => {
 
   useEffect(() => {
     const svg = d3.select(svgRef.current)
-    .attr("width", "100%")
-    .attr("height", "100%")
+    .attr("width", "75%")
+    .attr("height", "75%")
     .attr("viewBox", `0 0 800 800`)
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("style", "font: 10px sans-serif");
@@ -68,7 +68,7 @@ const SkillsBubbleCluster = ({ data }) => {
 
 
   return (
-    <svg ref={svgRef} width="100%" height="100%">
+    <svg ref={svgRef} width="75%" height="75%">
       <defs>
         <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style={{ stopColor: '#84fab0', stopOpacity: 1 }} />
