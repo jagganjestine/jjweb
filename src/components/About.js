@@ -37,7 +37,7 @@ const About = () => {
       <div className="education-container">
         <h3>Education</h3>
         <ul>
-          <li>Bachelor's Degree in Computer Science, The University of Texas at Dallas, 2019-2023</li>
+          <li>Bachelor's Degree in Computer Science with a Minor in Business Administration, The University of Texas at Dallas, 2019-2023</li>
         </ul>
       </div>
       <h2>Skills</h2>
