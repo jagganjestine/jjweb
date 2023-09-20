@@ -6,8 +6,8 @@ const SkillsBubbleCluster = ({ data }) => {
   const svgRef = useRef();
   
   const [dimensions, setDimensions] = useState({
-    width: window.innerWidth < 600 ? 1000 : 800,
-    height: window.innerWidth < 600 ? 1000 : 800,
+    width: window.innerWidth < 600 ? 2000 : 800,
+    height: window.innerWidth < 600 ? 2000 : 800,
   });
 
   useEffect(() => {
