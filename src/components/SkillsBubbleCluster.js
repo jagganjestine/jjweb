@@ -41,6 +41,7 @@ const SkillsBubbleCluster = ({ data }) => {
     }
 
     leaf.append("circle")
+      .attr("class", "skill-bubble-d3")
       .attr("r", d => d.r)
       .attr("fill-opacity", 0.7)
       .attr("fill", "url(#grad)")
