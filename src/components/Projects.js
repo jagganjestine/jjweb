@@ -15,7 +15,16 @@ const Projects = () => {
     <div className="language-dot"><span className="dot dot-js"></span><p>JavaScript</p></div>
     <a href="https://github.com/jaj180010/jjweb" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
   </div>
-</div>    
+</div>
+<div className="project-card">
+        <img src={myPhoto} alt="Git" className="card-img-top" />
+          <div className="card-body card-padding">
+            <h5 className="card-title">Online Tutoring Application</h5>
+            <p className="card-text">An online tutoring platform with secure user/tutor registration, two-factor authentication, tutor search, favorite lists, background checks for tutors, appointment scheduling, and integrated online meeting setup.</p>
+            <div className="language-dot"><span className="dot dot-js"></span><p>JavaScript</p></div>
+            <a href="https://github.com/anishgajera/CS4485" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </div>
 <div className="project-card">
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body card-padding">
@@ -52,15 +61,7 @@ const Projects = () => {
             <a href="https://github.com/jagganjestine/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
            </div>
         </div>  
-        <div className="project-card">
-        <img src={myPhoto} alt="Git" className="card-img-top" />
-          <div className="card-body card-padding">
-            <h5 className="card-title">Language Learner</h5>
-            <p className="card-text">A language learning platform with interactive lessons, quizzes, and a chatbot for practicing conversations.</p>
-            <div className="language-dot"><span className="dot"></span><p>C</p></div>
-            <a href="https://github.com/jagganjestine/language-learner" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
-          </div>
-        </div>
+        
         
        
       </div>
