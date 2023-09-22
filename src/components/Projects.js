@@ -20,7 +20,7 @@ const Projects = () => {
         <img src={myPhoto} alt="Git" className="card-img-top" />
           <div className="card-body card-padding">
             <h5 className="card-title">Online Tutoring Application</h5>
-            <p className="card-text">An online tutoring platform with secure user/tutor registration, two-factor authentication, appointment scheduling, and integrated online meeting setup.</p>
+            <p className="card-text">An online tutoring platform with secure user/tutor registration, two-factor authentication, and appointment scheduling.</p>
             <div className="language-dot"><span className="dot dot-js"></span><p>JavaScript</p></div>
             <a href="https://github.com/anishgajera/CS4485" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
