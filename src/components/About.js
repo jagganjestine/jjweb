@@ -43,7 +43,7 @@ const About = () => {
         </ul>
       </div>
       <h2>Skills</h2>
-      <p style="font-size:15px;"><i>Pop the Bubbles!</i></p>
+      <p><i>Pop the Bubbles!</i></p>
       <section className="skills-section">
         <SkillsBubbleCluster data={skillsData} />
       </section>
