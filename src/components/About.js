@@ -43,6 +43,7 @@ const About = () => {
         </ul>
       </div>
       <h2>Skills</h2>
+      <li><i>Pop the Bubbles!</i></li>
       <section className="skills-section">
         <SkillsBubbleCluster data={skillsData} />
       </section>
@@ -57,7 +58,7 @@ const About = () => {
             iconStyle={{ background: '#607d8b', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             icon={<i className="fa fa-briefcase custom-icon fa-2x" aria-hidden="true"></i>}
           >
-            <h3 style={{ fontSize: '1.5em' }} className="vertical-timeline-element-title">Associate Test Engineer</h3>
+            <h3 style={{ fontSize: '1.5em' }} className="vertical-timeline-element-title">Test Engineer</h3>
             <h4 style={{ fontSize: '1.2em' }} className="vertical-timeline-element-subtitle">Blue Cross Blue Shield of Illinois, Montana, New Mexico, Oklahoma & Texas</h4>
             <p>
               January 2024 - Present
