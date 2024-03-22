@@ -49,7 +49,7 @@ const Projects = () => {
             <h5 className="card-title card-padding">Text Editor</h5>
             <p className="card-text">A cross-platform desktop text editor with support for syntax highlighting and collaborative editing.</p>
             <div className="language-dot"><span className="dot dot-java"></span><p>Java</p></div>
-            <a href="https://github.com/jagganjestine/text-editor" className="btn btn-github" target="_blank" rel="noreferrer"> View on GitHub</a>
+            <a href="https://github.com/jaggerj10/text-editor" className="btn btn-github" target="_blank" rel="noreferrer"> View on GitHub</a>
           </div>
         </div>
         <div className="project-card">
@@ -58,7 +58,7 @@ const Projects = () => {
            <h5 className="card-title">Calendar</h5>
             <p className="card-text">A simple console-based calendar application that helps users manage their schedules and events.</p>
             <div className="language-dot"><span className="dot dot-java"></span><p>Java</p></div>
-            <a href="https://github.com/jagganjestine/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+            <a href="https://github.com/jaggerj10/simple-calendar" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
            </div>
         </div>  
         
