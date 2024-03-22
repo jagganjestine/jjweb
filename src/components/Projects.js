@@ -13,7 +13,7 @@ const Projects = () => {
     <h5 className="card-title">Personal Website</h5>
     <p className="card-text">A React-based personal website showcasing my experience, projects, and contact information. </p>
     <div className="language-dot"><span className="dot dot-js"></span><p>JavaScript</p></div>
-    <a href="https://github.com/jaj180010/jjweb" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+    <a href="https://github.com/jagganjestine/jjweb" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
   </div>
 </div>
 <div className="project-card">
@@ -22,7 +22,7 @@ const Projects = () => {
             <h5 className="card-title">Online Tutoring Application</h5>
             <p className="card-text">An online tutoring platform with secure user/tutor registration, two-factor authentication, and appointment scheduling.</p>
             <div className="language-dot"><span className="dot dot-js"></span><p>JavaScript</p></div>
-            <a href="https://github.com/jaj180010/CS4485" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+            <a href="https://github.com/jagganjestine/CS4485" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
         </div>
 <div className="project-card">
@@ -40,7 +40,7 @@ const Projects = () => {
             <h5 className="card-title">SQL Database</h5>
             <p className="card-text">A SQL database populated on a MySQL server for query testing purposes, with data generated from Python scripting.</p>
             <div className="language-dot"><span className="dot dot-sql"></span><p>SQL</p></div>
-            <a href="https://github.com/jaj180010/shoetopia" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
+            <a href="https://github.com/jagganjestine/shoetopia" className="btn btn-github" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
         </div>
         <div className="project-card">
